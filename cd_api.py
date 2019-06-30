@@ -6,7 +6,7 @@ app = Flask(__name__)
 app.config["PROPAGATE_EXCEPTIONS"] = True
 
 
-@app.route("/app/search", methods=["GET", "POST"])
+@app.route("/", methods=["GET", "POST"])
 def search_app():
     form = SearchForm(csrf_enabled=False)
     if form.validate_on_submit():
