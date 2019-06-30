@@ -1,0 +1,26 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pylint = "*"
+black = "==18.9b0"
+ipdb = "*"
+pytest = "*"
+pep8 = "*"
+
+[packages]
+requests-html = "*"
+requests = "*"
+dataclasses-json = "*"
+redis = "*"
+lxml = "*"
+python-slugify = "*"
+flask = "*"
+flask-wtf = "*"
+psycopg2 = "*"
+docker = "*"
+
+[requires]
+python_version = "3.7"

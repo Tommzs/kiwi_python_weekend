@@ -1,0 +1,14 @@
+<html>
+    <head>
+ <title>Search Result Page</title>
+    </head>
+    <body>
+		<ul>
+     {% for journey in journeys %}
+     <li>
+Source: {{ journey["source"] }} Destination: {{ journey["destination"] }} Departure: {{ journey["departure_datetime"] }}
+</li>
+     {% endfor %}
+<ul>
+    </body>
+</html>
